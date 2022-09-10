@@ -135,7 +135,8 @@ module LuckySentry
     end
 
     def running_at : String
-      "http://#{Lucky::ServerSettings.host}:#{Lucky::ServerSettings.reload_port}"
+      # "http://#{Lucky::ServerSettings.host}:#{Lucky::ServerSettings.reload_port}"
+      "testing"
     end
   end
 
